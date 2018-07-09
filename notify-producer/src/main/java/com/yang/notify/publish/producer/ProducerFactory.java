@@ -12,8 +12,9 @@ import java.util.Properties;
  **/
 public class ProducerFactory {
     private static Properties props = ProducerConfigLoader.loadProps();
+    private static SimpleBatchProducer simpleBatchProducer = new SimpleBatchProducer(props, props.getProperty("topic"));
 
     public static SimpleBatchProducer simpleBatchProducer() {
-        return new SimpleBatchProducer(props, props.getProperty("topic"));
+        return simpleBatchProducer;
     }
 }
