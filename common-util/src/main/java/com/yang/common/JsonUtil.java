@@ -1,4 +1,4 @@
-package com.yang.notify.publish.common;
+package com.yang.common;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

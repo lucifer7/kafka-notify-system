@@ -1,8 +1,8 @@
 package com.yang.notify.publish.producer;
 
 import com.google.common.collect.Lists;
-import com.yang.notify.publish.common.JsonUtil;
-import com.yang.notify.publish.dto.NotificationDto;
+import com.yang.common.JsonUtil;
+import com.yang.dto.NotificationDto;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;

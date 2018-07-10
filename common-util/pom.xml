@@ -10,14 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yang</groupId>
-    <artifactId>notify-producer</artifactId>
+    <artifactId>common-util</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.yang</groupId>
-            <artifactId>common-util</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 </project>

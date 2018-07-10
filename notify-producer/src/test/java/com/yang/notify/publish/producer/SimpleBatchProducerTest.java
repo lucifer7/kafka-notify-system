@@ -1,7 +1,7 @@
 package com.yang.notify.publish.producer;
 
 import com.google.common.collect.Lists;
-import com.yang.notify.publish.dto.NotificationDto;
+import com.yang.dto.NotificationDto;
 import org.apache.commons.lang3.RandomUtils;
 import org.junit.Before;
 import org.junit.Test;

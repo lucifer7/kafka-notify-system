@@ -1,6 +1,5 @@
-package com.yang.notify.publish.dto;
+package com.yang.dto;
 
-import com.google.common.base.MoreObjects;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -70,4 +69,18 @@ public class NotificationDto {
         Normal, Medium, Urgent
     }
 
+    @Override
+    public String toString() {
+        return "NotificationDto{" +
+                "receiveUserId=" + receiveUserId +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", sendUserId=" + sendUserId +
+                ", serviceName='" + serviceName + '\'' +
+                ", abstractContent='" + abstractContent + '\'' +
+                ", type=" + type +
+                ", priority=" + priority +
+                ", createTime=" + createTime +
+                '}';
+    }
 }

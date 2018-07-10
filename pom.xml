@@ -15,6 +15,7 @@
     <modules>
         <module>notify-producer</module>
         <module>notify-consumer</module>
+        <module>common-util</module>
     </modules>
 
     <properties>
